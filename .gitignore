@@ -1,0 +1,4 @@
+.vagrant/
+builds/
+output-virtualbox-iso/
+packer_cache/
