@@ -9,8 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         # fix tty errors on ubuntu
         ubuntu.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
 
-        ubuntu.vm.box = "UbuntuVM"
-        ubuntu.vm.box_url = "file://./builds/VirtualBox-ubuntu1404.box"
+        ubuntu.vm.box = "ubuntu/trusty64"
 
         ubuntu.vm.network "private_network", ip: "192.168.56.125"
 

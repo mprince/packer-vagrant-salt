@@ -11,8 +11,6 @@ trying to get our development environment up and running.
 The salt formula will install nginx.  Making salt do more interesting things is outside the scope of this 
 repository.
 
-For more details please visit http://scottsearle.me
-
 ### Requirements
 
 - Packer - https://www.packer.io
